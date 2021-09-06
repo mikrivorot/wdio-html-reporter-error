@@ -1,0 +1,32 @@
+{
+  "name": "wdio-html-reporter-error",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikrivorot/wdio-html-reporter-error.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikrivorot/wdio-html-reporter-error/issues"
+  },
+  "homepage": "https://github.com/mikrivorot/wdio-html-reporter-error#readme",
+  "dependencies": {
+    "@rpii/wdio-report-events": "^0.1.4",
+    "@wdio/cli": "^7.11.1",
+    "wdio-html-nice-reporter": "^7.8.2"
+  },
+  "devDependencies": {
+    "@rpii/wdio-html-reporter": "^7.7.1",
+    "@wdio/local-runner": "^7.11.1",
+    "@wdio/mocha-framework": "^7.11.1",
+    "@wdio/spec-reporter": "^7.10.1",
+    "chromedriver": "^93.0.1",
+    "wdio-chromedriver-service": "^7.2.0"
+  }
+}
